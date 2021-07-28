@@ -1,0 +1,59 @@
+.misa-dropdown {
+    height: 40px;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 200px;
+    position: relative;
+    box-sizing: border-box;
+    
+}
+
+.misa-dropdown:hover {
+    border: 1px solid #019160;
+}
+
+.misa-dropdown .dropdown-text {
+    line-height: 40px;
+    margin-left: 16px;
+    cursor: pointer;
+}
+
+.misa-dropdown .arrow-icon {
+    margin: 0px 12px;
+}
+
+.misa-dropdown .dropdown-list {
+    position: absolute;
+    width: 100%;
+    top: 41px;
+    z-index: 9999;
+    background-color: #fff;
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 3px 4px 0 rgba(0, 0, 0, 0.19);
+}
+
+.misa-dropdown .dropdown-list .dropdown-item {
+    height: 40px;
+    color: #000;
+    font-size: 13px;
+    line-height: 40px;
+    padding: 0px 16px;
+    border: 1px;
+    cursor: pointer;
+}
+.misa-dropdown .dropdown-list .dropdown-item:hover {
+    background-color: #E9EBEE;
+}
+
+.misa-dropdown .dropdown-list .selected {
+    background-color: #019160;
+    color: #fff;
+}
+
+.misa-dropdown .dropdown-list .selected:hover {
+    background-color: #019160;
+    color: #fff;
+}

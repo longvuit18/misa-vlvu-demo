@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../css/employee/content.css">
+    <link rel="stylesheet" href="../css/employee/header.css">
+    <link rel="stylesheet" href="../css/common/main.css">
+    <link rel="stylesheet" href="../css/employee/navbar.css">
+    <link rel="stylesheet" href="../css/employee/employee-details.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="logo-site">
+            <div class="logo-box">
+                <div class="toogler-icon"></div>
+                <div class="logo-image"></div>
+            </div>
+        </div>
+        <div class="thumb-navbar-content" style="display: none;">
+            <div class="nav-item">
+                <div class="nav-icon">
+                    <img src="../content/icon/dashboard.png" width="100%" height="auto" alt="">
+                </div>
+                <!-- <div class="nav-text">Tổng quan</div> -->
+            </div>
+            <div class="nav-item">
+                <div class="nav-icon">
+                    <img src="../content/icon/report.png" width="100%" height="auto" alt="">
+                </div>
+                <!-- <div class="nav-text">Báo cáo</div> -->
+            </div>
+            <div class="nav-item">
+                <div class="nav-icon">
+                    <img src="../content/icon/document-online.png" width="100%" height="auto" alt="">
+                </div>
+                <!-- <div class="nav-text">Mua hàng</div> -->
+            </div>
+            <div class="nav-item">
+                <div class="nav-icon">
+                    <img src="../content/icon/dic-employee.png" width="100%" height="auto" alt="">
+                </div>
+                <!-- <div class="nav-text">Danh mục nhân viên</div> -->
+            </div>
+            <div class="nav-item">
+                <div class="nav-icon">
+                    <img src="../content/icon/setting.png" width="100%" height="auto" alt="">
+                </div>
+                <!-- <div class="nav-text">Thiết lập hệ thống</div> -->
+            </div>
+        </div>
+        <div class="navbar-content">
+            <div class="nav-item">
+                <div class="nav-icon">
+                    <img src="../content/icon/dashboard.png" width="100%" height="auto" alt="">
+                </div>
+                <div class="nav-text">Tổng quan</div>
+            </div>
+            <div class="nav-item">
+                <div class="nav-icon">
+                    <img src="../content/icon/report.png" width="100%" height="auto" alt="">
+                </div>
+                <div class="nav-text">Báo cáo</div>
+            </div>
+            <a class="nav-item">
+                <div class="nav-icon">
+                    <img src="../content/icon/document-online.png" width="100%" height="auto" alt="">
+                </div>
+                <div class="nav-text">Danh mục khách hàng</div>
+            </a>
+            <div class="nav-item active">
+                <div class="nav-icon">
+                    <img src="../content/icon/dic-employee.png" width="100%" height="auto" alt="">
+                </div>
+                <div class="nav-text">Danh mục nhân viên</div>
+            </div>
+            <div class="nav-item">
+                <div class="nav-icon">
+                    <img src="../content/icon/setting.png" width="100%" height="auto" alt="">
+                </div>
+                <div class="nav-text">Thiết lập hệ thống</div>
+            </div>
+        </div>
+    </div>
+    <div class="header">
+        <div class="select-restaurant">
+            <div class="select-box">
+                <div class="misa-dropdown">
+                    <div class="dropdown-text">Nhà hàng biển đông</div>
+                    <div class="arrow-icon"><i class="arrow down"></i></div>
+                    <div class="dropdown-list" style="display: none;">
+                        <div class="dropdown-item selected">Nhà hàng biển Đông</div>
+                        <div class="dropdown-item">Nhà hàng biển Bắc</div>
+                        <div class="dropdown-item">Nhà hàng biển Năm</div>
+                        <div class="dropdown-item">Nhà hàng biển Tây</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="header-account">
+            <div class="account-avatar"></div>
+            <div class="account-name">
+                <p>Vũ Long Vũ</p>
+            </div>
+            <div class="account-more"></div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="page-title">
+            <div class="title-text">
+                Danh sách nhân viên
+            </div>
+            <div class="add-button">
+                <button>
+                    <div class="button-box">
+                        <img src="../content/icon/add.png" style="padding-right: 8px;" alt="">
+                        Thêm thành viên
+                    </div>
+                </button>
+            </div>
+            <div class="reload-button">
+                <button class="secondary-button">
+                    <img src="../content/icon/refresh.png" alt="">
+                </button>
+            </div>
+        </div>
+        <div class="filter-bar">
+            <div class="search-input">
+                <input type="text" placeholder="Tìm kiếm theo Mã, Tên hoặc số điện thoại" onfocus="this.placeholder=''"
+                    onblur="this.placeholder='Tìm kiếm theo Mã, Tên hoặc số điện thoại'">
+                <div class="clear-text-button">&times;</div>
+            </div>
+            <div class="filter-input">
+                <div class="misa-dropdown">
+                    <div class="dropdown-text">Tất cả phòng ban</div>
+                    <div class="arrow-icon"><i class="arrow down"></i></div>
+                    <div class="dropdown-list" style="display: none;">
+                        <div class="dropdown-item selected">Tất cả phòng ban</div>
+                        <div class="dropdown-item">Phòng kinh doanh</div>
+                        <div class="dropdown-item">Phòng kĩ thuật</div>
+                        <div class="dropdown-item">Phòng nhân sự</div>
+                    </div>
+                </div>
+            </div>
+            <div class="filter-input">
+                <div class="misa-dropdown">
+                    <div class="dropdown-text">Tất cả vị trí</div>
+                    <div class="arrow-icon"><i class="arrow down"></i></div>
+                    <div class="dropdown-list" style="display: none;">
+                        <div class="dropdown-item selected">Tất cả vị trí</div>
+                        <div class="dropdown-item">Giám đốc</div>
+                        <div class="dropdown-item">Nhân viên</div>
+                        <div class="dropdown-item">Trường phòng kinh doanh</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid">
+            <div class="wrapper-table">
+                <table width="100%" cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th fieldName="EmployeeCode">Mã nhân viên</th>
+                            <th fieldName="FullName">Họ và tên</th>
+                            <th fieldName="GenderName">Giới tính</th>
+                            <th fieldName="DateOfBirth" formatType="date" class="text-align-center">Ngày sinh</th>
+                            <th fieldName="PhoneNumber">Điện thoại</th>
+                            <th fieldName="Email">Email</th>
+                            <th fieldName="PositionName">Chức vụ</th>
+                            <th fieldName="DepartmentName">Phòng ban</th>
+                            <th fieldName="Salary" formatType="currency" class="text-align-right">Mức lương cơ bản</th>
+                            <th fieldName="WorkStatus">Tình trạng công việc </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="paging-bar">
+            <div class="paging-left">
+                Hiện thị 1-10/1000 nhân viên
+            </div>
+            <div class="paging-center">
+                <div class="btn-firstpage"></div>
+                <div class="btn-prev-page"></div>
+                <div class="pagination">
+                    <div class="pagination-item active">1</div>
+                    <div class="pagination-item">2</div>
+                    <div class="pagination-item">3</div>
+                    <div class="pagination-item">4</div>
+                </div>
+                <div class="btn-next-page"></div>
+                <div class="btn-lastpage"></div>
+
+            </div>
+            <div class="paging-right">
+                10 nhân viên/trang
+            </div>
+        </div>
+    </div>
+    <div class="employee-details">
+        <div class="dialog">
+            <div class="dialog-content">
+                <div class="dialog-content-box">
+                    <div class="container">
+                        <div class="close-button">&times;</div>
+                        <div class="page-title">Thông tin nhân viên</div>
+                        <div class="row">
+                            <div class="col-3 content-image">
+                                <div class="avatar-image">
+                                    <img src="../content/img/default-avatar.jpg" width="80%" height="auto"
+                                        alt="default-avatar">
+                                </div>
+                                <div class="avatar-subtext">
+                                    (Vui lòng chọn ảnh có định dạng <br /> .jpg .jpeg, .png, .gift)
+                                </div>
+                            </div>
+                            <div class="col-9 content-details">
+                                <div class="common-info-title">
+                                    <div>A. Thông tin chung:</div>
+                                    <div class="border"></div>
+                                </div>
+                                <div class="row">
+                                    <input type="hidden" id="txtEmployeeId" />
+                                    <div class="col-6 details-info">
+                                        <div class="form-item">
+                                            <label>Mã nhân viên (<span style="color: red">*</span>)</label>
+                                            <input id="txtEmployeeCode" required type="text" tabindex="1"
+                                                id="txtEmployeeCode">
+                                        </div>
+                                        <div class="form-item">
+                                            <label for="DateOfBirth">Ngày sinh</label>
+                                            <input id="txtDateOfBirth" type="date" format="yyyy-MM-dd" tabindex="3">
+                                        </div>
+                                        <div class="form-item">
+                                            <label>Số CMND/ Căn cước (<span style="color: red">*</span>)</label>
+                                            <input id="txtIdentityNumber" required type="text">
+                                        </div>
+                                        <div class="form-item">
+                                            <label>Nơi cấp</label>
+                                            <input id="txtIdentityPlace" type="text">
+                                        </div>
+                                        <div class="form-item">
+                                            <label>Email (<span style="color: red">*</span>)</label>
+                                            <input id="txtEmail" required type="email">
+                                        </div>
+                                    </div>
+                                    <div class="col-6 details-info">
+                                        <div class="form-item">
+                                            <label>Họ và tên (<span style="color: red">*</span>)</label>
+                                            <input pattern="[A-Za-z]{3}" id="txtFullName" required type="text"
+                                                tabindex="2">
+                                        </div>
+                                        <div class="form-item">
+                                            <label>Giới tính</label>
+                                            <div class="misa-dropdown">
+                                                <div class="dropdown-text">Tất cả vị trí</div>
+                                                <div class="arrow-icon"><i class="arrow down"></i></div>
+                                                <div class="dropdown-list" style="display: none;">
+                                                    <div class="dropdown-item ">Không xác định</div>
+                                                    <div class="dropdown-item">Nam</div>
+                                                    <div class="dropdown-item">Nữ</div>
+                                                    <div class="dropdown-item selected">Không xác định</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-item">
+                                            <label for="">Ngày cấp</label>
+                                            <input id="txtIdentityDate" type="date">
+                                        </div>
+                                        <div style="height: 77px;"></div>
+                                        <div class="form-item">
+                                            <label>Số điện thoại</label>
+                                            <input id="txtPhoneNumber" required type="text">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="common-info-title">
+                                    <div>B. Thông tin công việc:</div>
+                                    <div class="border"></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-6 details-info">
+                                        <div class="form-item">
+                                            <label>Vị trí</label>
+                                            <div class="misa-dropdown">
+                                                <div class="dropdown-text">Tất cả vị trí</div>
+                                                <div class="arrow-icon"><i class="arrow down"></i></div>
+                                                <div class="dropdown-list" style="display: none;">
+                                                    <div class="dropdown-item selected">Tất cả vị trí</div>
+                                                    <div class="dropdown-item">Giám đốc</div>
+                                                    <div class="dropdown-item">Nhân viên</div>
+                                                    <div class="dropdown-item">Trường phòng kinh doanh</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-item">
+                                            <label>Mã số thuế nhân viên</label>
+                                            <input id="txtPersonalTaxCode" type="text">
+                                        </div>
+                                        <div class="form-item">
+                                            <label>Ngày gia nhập công ti</label>
+                                            <input type="date">
+                                        </div>
+                                    </div>
+                                    <div class="col-6 details-info">
+                                        <div class="form-item">
+                                            <label>Phòng ban</label>
+                                            <div class="misa-dropdown">
+                                                <div class="dropdown-text">Tất cả phòng ban</div>
+                                                <div class="arrow-icon"><i class="arrow down"></i></div>
+                                                <div class="dropdown-list" style="display: none;">
+                                                    <div class="dropdown-item selected">Tất cả vị trí</div>
+                                                    <div class="dropdown-item">Giám đốc</div>
+                                                    <div class="dropdown-item">Nhân viên</div>
+                                                    <div class="dropdown-item">Trường phòng kinh doanh</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-item">
+                                            <label>Mức lương cơ bản</label>
+                                            <input id="txtSalary" type="text">
+                                        </div>
+                                        <div class="form-item">
+                                            <label>Tình trạng công việc</label>
+                                            <div class="misa-dropdown">
+                                                <div class="dropdown-text">Không xác định</div>
+                                                <div class="arrow-icon"><i class="arrow down"></i></div>
+                                                <div class="dropdown-list" style="display: none;">
+                                                    <div class="dropdown-item selected">Không xác đinh</div>
+                                                    <div class="dropdown-item">Đi làm</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-action">
+                        <a>Hủy</a>
+                        <button id="btnSave">Lưu</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="popup">
+
+    </div>
+
+    <script src="../js/libs/jquery-3.6.0.min.js"></script>
+    <script src="../js/common/popup.js"></script>
+    <script src="../js/common/base.js"></script>
+    <script src="../js/page/employee.js"></script>
+
+</body>
+
+</html>

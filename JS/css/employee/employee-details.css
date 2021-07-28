@@ -1,0 +1,79 @@
+.container {
+    width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 16px 16px 0px 16px;
+    border-radius: 4px;
+    position: relative;
+}
+
+.container .close-button {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 28px;
+    color: #bbb;
+    cursor: pointer;
+}
+
+.page-title {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 16px 0px;
+}
+
+.content-image {
+    text-align: center;
+}
+
+.content-image .avatar-image img {
+    /* background-image: url("/content/img/default-avatar.jpg");
+    background-size: contain;
+    background-repeat: no-repeat; */
+    border-radius: 50%;
+    height: 154px;
+    border: 1px solid #E5E5E5;
+}
+
+.content-image .avatar-subtext {
+    text-align: center;
+}
+
+.common-info-title {
+    text-transform: uppercase;
+    font-size: 15px;
+    padding-left: 12px;
+}
+
+.common-info-title .border {
+    width: 80px;
+    margin-top: 10px;
+    border-bottom: 3px solid #01B075;
+}
+
+.details-info {
+    padding: 8px;
+}
+
+.details-info input, select {
+    width: 100%;
+}
+
+.details-info .form-item {
+    margin-bottom: 16px;
+}
+
+.content-action {
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #E9EBEE;
+    padding-right: 24px;
+}
+
+.content-action a {
+    margin-right: 12px;
+    cursor: pointer;
+}

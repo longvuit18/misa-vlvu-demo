@@ -1,0 +1,53 @@
+.grid .wrapper-table {
+    padding: 0px 16px;
+    overflow: auto;
+    height: calc(100vh - 280px);
+}
+
+::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+}
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: rgb(104, 104, 104);
+}
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(66, 66, 66);
+}
+
+.grid table thead th {
+    background-color: #fff;
+    white-space: nowrap;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 10;
+}
+
+table th, td {
+    border-bottom: 1px solid #bbbbbb;
+    padding: 10px 16px;
+    text-align: left;
+    white-space: nowrap;
+}
+
+table tr:nth-child(even) {
+    background-color: #e5e5e5;
+}
+
+table tbody tr:hover {
+    background-color: #BBBBBB;
+    cursor: pointer;
+}

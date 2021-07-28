@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    font-family: "GoogleSans-Regular";
+    font-size: 13px;
+    background-color: #E9EBEE;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-family: "GoogleSans-Regular";
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "GoogleSans-Regular";
+}
+
+@font-face {
+    font-family: 'GoogleSans-Regular';
+    src: url("../../content/font/GoogleSans-Regular.otf");
+}
+
+@font-face {
+    font-family: 'GoogleSans-Bold';
+    src: url("../../content/font/GoogleSans-Bold.otf");
+}
+
+@font-face {
+    font-family: 'GoogleSans-Italic';
+    src: url("../../content/font/GoogleSans-Italic.otf");
+}
+
+@font-face {
+    font-family: 'GoogleSans-Light';
+    src: url("../../content/font/GoogleSans-Light.otf");
+}
+
+@font-face {
+    font-family: 'GoogleSans-Thin';
+    src: url("../../content/font/GoogleSans-Thin.otf");
+}
+
+.text-align-center {
+    text-align: center !important;
+}
+
+.text-align-right {
+    text-align: right !important;
+}
+
+.border-red {
+    border-color: red;
+}

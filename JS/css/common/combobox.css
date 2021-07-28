@@ -1,0 +1,77 @@
+.m-combobox {
+    display: flex;
+    position: relative;
+}
+
+.m-combobox input {
+    border-radius: 4px 0px 0px 4px;
+}
+
+.combobox-button {
+    height: 40px;
+    width: 40px;
+    padding: auto 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #bbb;
+    border-radius: 0px 4px 4px 0px;
+    box-sizing: border-box;
+    border-left: none;
+    cursor: pointer;
+}
+
+.combobox-button:hover {
+    background-color: #E9EBEE;
+}
+
+.combobox-list {
+    position: absolute;
+    display: none;
+    width: 100%;
+    top: 42px;
+    z-index: 999;
+    background-color: #fff;
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 3px 4px 0 rgba(0, 0, 0, 0.19);
+}
+
+.combobox-item {
+    height: 40px;
+    color: #000;
+    font-size: 13px;
+    line-height: 40px;
+    padding: 0px 16px;
+    border: 1px;
+    cursor: pointer;
+}
+
+.m-combobox .combobox-list .combobox-item:hover {
+    background-color: #E9EBEE;
+}
+
+.m-combobox .combobox-list .selected {
+    background-color: #019160;
+    color: #fff;
+}
+
+.m-combobox .combobox-list .selected:hover {
+    background-color: #019160;
+    color: #fff;
+}
+
+.autocomplete-active {
+    background-color: #E9EBEE;
+}
+
+.hide-item {
+    display: none;
+}
+
+.border-red {
+    border: 1px solid red;
+}
+
+.border-focus {
+    border: 1px solid #019160;
+    color: #019160;
+}

@@ -1,0 +1,12 @@
+D:\misa\MISA.WEB2021_06\mf904-vlvu\ASP.NET Core\MISA.CukCuk\MISA.ApplicationCore\bin\Debug\net5.0\MISA.ApplicationCore.deps.json
+D:\misa\MISA.WEB2021_06\mf904-vlvu\ASP.NET Core\MISA.CukCuk\MISA.ApplicationCore\bin\Debug\net5.0\MISA.ApplicationCore.dll
+D:\misa\MISA.WEB2021_06\mf904-vlvu\ASP.NET Core\MISA.CukCuk\MISA.ApplicationCore\bin\Debug\net5.0\ref\MISA.ApplicationCore.dll
+D:\misa\MISA.WEB2021_06\mf904-vlvu\ASP.NET Core\MISA.CukCuk\MISA.ApplicationCore\bin\Debug\net5.0\MISA.ApplicationCore.pdb
+D:\misa\MISA.WEB2021_06\mf904-vlvu\ASP.NET Core\MISA.CukCuk\MISA.ApplicationCore\obj\Debug\net5.0\MISA.ApplicationCore.csproj.AssemblyReference.cache
+D:\misa\MISA.WEB2021_06\mf904-vlvu\ASP.NET Core\MISA.CukCuk\MISA.ApplicationCore\obj\Debug\net5.0\MISA.ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+D:\misa\MISA.WEB2021_06\mf904-vlvu\ASP.NET Core\MISA.CukCuk\MISA.ApplicationCore\obj\Debug\net5.0\MISA.ApplicationCore.AssemblyInfoInputs.cache
+D:\misa\MISA.WEB2021_06\mf904-vlvu\ASP.NET Core\MISA.CukCuk\MISA.ApplicationCore\obj\Debug\net5.0\MISA.ApplicationCore.AssemblyInfo.cs
+D:\misa\MISA.WEB2021_06\mf904-vlvu\ASP.NET Core\MISA.CukCuk\MISA.ApplicationCore\obj\Debug\net5.0\MISA.ApplicationCore.csproj.CoreCompileInputs.cache
+D:\misa\MISA.WEB2021_06\mf904-vlvu\ASP.NET Core\MISA.CukCuk\MISA.ApplicationCore\obj\Debug\net5.0\MISA.ApplicationCore.dll
+D:\misa\MISA.WEB2021_06\mf904-vlvu\ASP.NET Core\MISA.CukCuk\MISA.ApplicationCore\obj\Debug\net5.0\ref\MISA.ApplicationCore.dll
+D:\misa\MISA.WEB2021_06\mf904-vlvu\ASP.NET Core\MISA.CukCuk\MISA.ApplicationCore\obj\Debug\net5.0\MISA.ApplicationCore.pdb

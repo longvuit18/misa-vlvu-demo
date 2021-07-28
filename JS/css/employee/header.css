@@ -1,0 +1,58 @@
+.header {
+    background-color: #fff;
+    float: right;
+    width: calc(100% - 221px);
+    height: 60px;
+    border-bottom: 1px solid #E5E5E5;
+    position: relative;
+}
+
+.select-restaurant {
+    height: 100%;
+    padding-left: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.select-restaurant .misa-dropdown {
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    outline: none;
+}
+
+.select-restaurant .misa-dropdown:hover {
+    border: none;
+}
+
+.header-account {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: absolute;
+    right: 16px;
+    top: 0;
+    height: 100%;
+    width: 200px;
+}
+
+.header-account .account-avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-image: url("../../content/icon/avatar-default.png");
+    background-size: contain;
+}
+
+.header-account .account-name {
+    font-weight: bold;
+    margin: 0px 16px 0px 16px;
+}
+.header-account .account-more {
+    background-image: url("../../content/icon/option.png");
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
